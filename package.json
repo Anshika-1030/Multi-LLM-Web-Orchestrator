@@ -1,0 +1,21 @@
+{
+  "name": "multi-llm-web-orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension to orchestrate multiple LLM providers from a side panel.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.1.24"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.0.0"
+  }
+}
